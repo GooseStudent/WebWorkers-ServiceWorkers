@@ -1,6 +1,4 @@
-const API_URL = window.location.hostname === 'localhost' 
-    ? '/api/posts' 
-    : 'https://webworkers-serviceworkers-iaam.onrender.com/api/posts';
+const API_URL = 'https://webworkers-serviceworkers-iaam.onrender.com/api/posts';
 
 class App {
     constructor() {
