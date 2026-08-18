@@ -9,7 +9,7 @@ module.exports = {
     filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: '/'
+    publicPath: '/WebWorkers-ServiceWorkers/' 
   },
   module: {
     rules: [
@@ -53,7 +53,7 @@ module.exports = {
           }
         },
         {
-          urlPattern: /^https:\/\/webworkers-serviceworkers-iaam\.onrender\.com\/api\/posts/,
+          urlPattern: /^https:\/\/webworkers-serviceworkers-backend\.onrender\.com\/api\/posts/,
           handler: 'NetworkFirst',
           options: {
             cacheName: 'api-cache',
