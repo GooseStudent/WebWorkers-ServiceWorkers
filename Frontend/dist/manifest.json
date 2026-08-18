@@ -1,0 +1,11 @@
+{
+  "name": "Loading Styling",
+  "short_name": "Loading",
+  "description": "Loading interface with caching",
+  "start_url": "/WebWorkers-ServiceWorkers/",
+  "scope": "/WebWorkers-ServiceWorkers/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "icons": []
+}
